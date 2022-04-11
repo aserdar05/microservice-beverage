@@ -28,7 +28,7 @@ public class BeverageDto {
     @Null
     private OffsetDateTime createdDate;
     @Null
-    private OffsetDateTime lastModifiedDate;
+    private OffsetDateTime lastUpdatedDate;
 
     @NotBlank
     private String beverageName;
